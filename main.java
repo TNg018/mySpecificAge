@@ -1,5 +1,5 @@
 //cNguyen  2.7.2022
-//mySpecificAge calculates age in days, hours, minutes and seconds
+//MySpecificAge calculates age in days, hours, minutes and seconds
 //Given: birthdate input
 //Localdate used to find current date
 //ChronoUnit comparison of days between current date and given birthdate
@@ -10,10 +10,10 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
 
-public class mySpecificAge {
+public class MySpecificAge {
 	public static void main(String[] args) throws Exception {
         try {
-            new mySpecificAge().run();
+            new MySpecificAge().run();
         } catch (Throwable ex) {
             ex.printStackTrace();
         }
